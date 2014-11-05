@@ -1,0 +1,18 @@
+package test;
+import Users.*;
+
+public class TestUsers {
+
+	Cashier testCashier = new Cashier("Tomasz", "Kowalski", "Bla adres Bla", 001, 15, 011, 3500);
+	
+	public TestUsers()
+	
+	public static void main(String[] args) {
+	
+		System.out.println();
+
+	}
+
+	
+ 
+}
