@@ -11,12 +11,20 @@ public class Employee extends Person {
 		
 	}
 
-	public Employee(String name, String surname, String address, int ID, int dateOfBirth, int payRoleID, int Salary){
+	public Employee(String name, String surname, String address, int ID, int dateOfBirth, int payRoleID, int salary){
 		super(name, surname, address, ID, dateOfBirth);
 		this.payRoleID = payRoleID;
-		this.salary = Salary;
+		this.salary = salary;
 	}
 	
+	public void setPayRoleID(int payRoleID) {
+		this.payRoleID = payRoleID;
+	}
+
+	public void setSalary(int salary) {
+		this.salary = salary;
+	}
+
 	int getPayRoleID(){
 		return payRoleID;
 	}
